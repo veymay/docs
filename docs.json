@@ -9,79 +9,41 @@
   },
   "favicon": "/images/veymay.jpg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "WEBSITE",
+          "icon": "globe",
+          "color": {
+            "light": "#7dba28",
+            "dark": "#7dba28"
+          },
+          "href": "https://veymay.uz"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "TELEGRAM",
+          "icon": "paper-plane",
+          "color": {
+            "light": "#7dba28",
+            "dark": "#7dba28"
+          },
+          "href": "https://t.me/veymayuz"
         }
       ]
-    }
+    },
+    "tabs": [
+      {
+        "tab": "DARSLAR",
+        "dropdowns": [
+          {
+            "dropdown": "HTML"
+          },
+          {
+            "dropdown": "CSS"
+          }
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
